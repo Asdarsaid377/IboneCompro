@@ -1,0 +1,710 @@
+<!doctype html>
+
+<html class="dark" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+		<title>iBone Gadget | Premium iPhone Retail &amp; Repair</title>
+		<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;display=swap"
+			rel="stylesheet" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+			rel="stylesheet" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+			rel="stylesheet" />
+		<script id="tailwind-config">
+			tailwind.config = {
+				darkMode: "class",
+				theme: {
+					extend: {
+						colors: {
+							primary: "#137fec",
+							"background-light": "#f6f7f8",
+							"background-dark": "#101922",
+						},
+						fontFamily: {
+							display: ["Inter", "sans-serif"],
+						},
+						borderRadius: {
+							DEFAULT: "0.25rem",
+							lg: "0.5rem",
+							xl: "0.75rem",
+							full: "9999px",
+						},
+					},
+				},
+			};
+		</script>
+		<style>
+			body {
+				font-family: "Inter", sans-serif;
+			}
+			.glass-card {
+				background: rgba(255, 255, 255, 0.03);
+				backdrop-filter: blur(10px);
+				border: 1px solid rgba(255, 255, 255, 0.1);
+			}
+			.text-gradient {
+				background: linear-gradient(to right, #ffffff, #137fec);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+			}
+		</style>
+	</head>
+	<body
+		class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 antialiased overflow-x-hidden">
+		<!-- Header / Navigation -->
+		<header
+			class="fixed top-0 w-full z-50 border-b border-white/10 bg-background-dark/80 backdrop-blur-md">
+			<div
+				class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+				<div class="flex items-center gap-3">
+					<div class="bg-primary p-2 rounded-lg">
+						<span
+							class="material-symbols-outlined text-white text-2xl"
+							data-icon="smartphone"
+							>smartphone</span
+						>
+					</div>
+					<h1
+						class="text-xl font-extrabold tracking-tight text-white uppercase italic">
+						iBone <span class="text-primary">Gadget</span>
+					</h1>
+				</div>
+				<nav class="hidden md:flex items-center gap-10">
+					<a
+						class="text-sm font-semibold hover:text-primary transition-colors"
+						href="#home"
+						>Home</a
+					>
+					<a
+						class="text-sm font-semibold hover:text-primary transition-colors"
+						href="#about"
+						>About</a
+					>
+					<a
+						class="text-sm font-semibold hover:text-primary transition-colors"
+						href="#services"
+						>Services</a
+					>
+					<a
+						class="text-sm font-semibold hover:text-primary transition-colors"
+						href="#why-us"
+						>Why Us</a
+					>
+					<a
+						class="text-sm font-semibold hover:text-primary transition-colors"
+						href="#contact"
+						>Contact</a
+					>
+				</nav>
+				<div class="flex items-center gap-4">
+					<button
+						class="bg-primary hover:bg-primary/90 text-white px-6 py-2.5 rounded-lg text-sm font-bold transition-all transform active:scale-95">
+						Repair Quote
+					</button>
+				</div>
+			</div>
+		</header>
+		<main>
+			<!-- Hero Section -->
+			<section
+				class="relative pt-32 pb-20 px-6 overflow-hidden min-h-screen flex items-center"
+				id="home">
+				<div
+					class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full -z-10 opacity-20">
+					<div
+						class="absolute top-1/4 left-1/4 w-96 h-96 bg-primary rounded-full blur-[120px]"></div>
+					<div
+						class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-primary/40 rounded-full blur-[120px]"></div>
+				</div>
+				<div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+					<div class="space-y-8">
+						<div
+							class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold tracking-widest uppercase">
+							<span class="relative flex h-2 w-2">
+								<span
+									class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+								<span
+									class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+							</span>
+							Certified Apple Specialist
+						</div>
+						<h2
+							class="text-5xl md:text-7xl font-black leading-tight text-white">
+							iBone Gadget: Your Trusted
+							<span class="text-primary">iPhone</span> Partner
+						</h2>
+						<p class="text-lg text-slate-400 max-w-lg leading-relaxed">
+							Experience premium retail and expert repair services tailored for
+							your iPhone. Fast, reliable, and professional care for the devices
+							you love.
+						</p>
+						<div class="flex flex-wrap gap-4 pt-4">
+							<button
+								class="bg-primary text-white px-8 py-4 rounded-xl font-bold flex items-center gap-2 hover:shadow-[0_0_20px_rgba(19,127,236,0.4)] transition-all">
+								Explore Our Services
+								<span class="material-symbols-outlined text-sm"
+									>arrow_forward</span
+								>
+							</button>
+							<button
+								class="bg-white/5 border border-white/10 text-white px-8 py-4 rounded-xl font-bold hover:bg-white/10 transition-all">
+								View Inventory
+							</button>
+						</div>
+					</div>
+					<div class="relative group">
+						<div
+							class="absolute inset-0 bg-primary/20 rounded-full blur-3xl group-hover:bg-primary/30 transition-all"></div>
+						<div
+							class="relative rounded-2xl overflow-hidden shadow-2xl border border-white/10 transform rotate-2 group-hover:rotate-0 transition-transform duration-700">
+							<img
+								alt="Modern iPhone 15 Pro on a desk"
+								class="w-full h-full object-cover aspect-[4/5]"
+								data-alt="Close up shot of a sleek modern smartphone on desk"
+								src="https://lh3.googleusercontent.com/aida-public/AB6AXuDXVxT3RsEt4iCkL2sEv33vzJ8hlTzaS563pomdBSDZ27R6m48sjIwdZL9G3HIEC0RsxdjRc78ISXV_HDhKIk7mI67o1MToS-NAwq8knA2RlCz_lJd96NSeRVXBa_JWe640oORnyhJzyFctZt1Uei-TzalwOyRbLl9xTKDX4UoCxrmgplBbEeB9Lm-MlY8knwigAtmlCZSu_zJY-Rio2MUMCF1Bf2yoPNt0CqxwQq564b4pvda1sDQSGnjFm92sMnU_XJUr8LhEJPg" />
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- About Us Section -->
+			<section class="py-24 px-6 bg-white/[0.02]" id="about">
+				<div class="max-w-7xl mx-auto">
+					<div class="grid lg:grid-cols-2 gap-20 items-center">
+						<div class="grid grid-cols-2 gap-4">
+							<div class="space-y-4">
+								<div
+									class="aspect-square rounded-2xl overflow-hidden shadow-xl border border-white/5">
+									<img
+										alt="iPhone Technician at work"
+										class="w-full h-full object-cover"
+										data-alt="Technical professional repairing mobile phone internal components"
+										src="https://lh3.googleusercontent.com/aida-public/AB6AXuDwRIyKol-ikcgRSq11lgEQvQCRvunukOyqRM-6Ii571WXJRr59DD5ufslm6ZWRMsKUOUwuPal05GS3baBCyMQZ1wfl5qgs0u89nOOLK1vzhZgD1X-5kP5FWxcCzAgLcVNhpCAjpmJs1eICxQ-h7QvIyWuaWe3Gjm4cQvbdZ90VGMx-ko_cu1eUyrhsnpSXB2Ak0mmjlCjmza34-BSPomH1hdXRl95HVIvqu1m8we4dVU4W8RTy8Re7X4mAT04uudCEKNbvE14UZN8" />
+								</div>
+								<div
+									class="aspect-[4/5] rounded-2xl overflow-hidden shadow-xl border border-white/5 translate-x-4">
+									<img
+										alt="Premium smartphone collection"
+										class="w-full h-full object-cover"
+										data-alt="Rows of luxury smartphones displayed on a shelf"
+										src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkpNN3_Gi2E9-29PUqbkFnxQozERoNLIrYYR4xcztj0yelhF0e10qAh3vOR3dRE6tLFQC2QJwt21XKXaimEQUn7xlzw4rNVU8KV9JS5zUv143cJCnZJtD6AQSiKsh9yMgf0R6czhCJ3xfVLchq5BXdbpOeoEMh__9ph5HgdeWfrRNL8TAIBT9J8lrfB2oYhVlDMo0Eo6UHs0iHfjB3GhKWBd-dUhdSb7SrSvFap3gfECRY-1fKoE7MY1mEPtDSZBe-hQDU3R9xvr0" />
+								</div>
+							</div>
+							<div class="space-y-4 pt-12">
+								<div
+									class="aspect-[4/5] rounded-2xl overflow-hidden shadow-xl border border-white/5">
+									<img
+										alt="Close up of tech bench"
+										class="w-full h-full object-cover"
+										data-alt="Detailed view of high-end motherboard repair tools"
+										src="https://lh3.googleusercontent.com/aida-public/AB6AXuBwiNcwWUlRKBkchC7GVEnso_xsAA9pQhWvjVzhkx_XS-n669Kw9-IaRuvC6fTCrMMyR1DKPIHSOp0fpuOON25Oi_Y6L5h89K_uQ_yYKjkU4HS0hlGVi_ZilHib5vqe_U4pogJH7lC_qqmAPBguYf0fcz4mdkPIkJaxFXaJjkjef8zNRP40NvODtsODbDydRoZFI-PCxlV-cI6JW2kFDcMr1cBZdI9-DTgkAxw5C2bySD0-bkc28JSrjKmioeS041m9DV5Yi7FvPQY" />
+								</div>
+								<div
+									class="aspect-square rounded-2xl overflow-hidden shadow-xl border border-white/5 translate-x-4">
+									<img
+										alt="Customer service"
+										class="w-full h-full object-cover"
+										data-alt="Professional staff smiling while helping a customer"
+										src="https://lh3.googleusercontent.com/aida-public/AB6AXuDa50PLJIReRor6U1p0n_lCDbH1pXKsk1yCFUnU6vnxI52Vyjnttfm8-8py8Vuh-i9p9h5Xfm7uv3YA3k1S5xW7wjmS9_zaRjOhp2a8kIt5IOL8Wm4V_DLQ0znnaUZDx_-rEAR3j_7Xon5c8rsczd1YTkTGqhwbjAO2JQqNUDkOAXiCdo3SmH7NKCmtGKAdP-rq-s2YqlzChaCj3D6nwREu290miPvVVXlgBCnYx2SxyzO9AP88axg7T6oNB-lUKC37_i-ysESKeKU" />
+								</div>
+							</div>
+						</div>
+						<div class="space-y-8">
+							<h3 class="text-4xl font-extrabold text-white">
+								About iBone Gadget
+							</h3>
+							<div class="w-20 h-1.5 bg-primary rounded-full"></div>
+							<p class="text-lg text-slate-400 leading-relaxed">
+								We are specialists in the iPhone ecosystem, providing a seamless
+								experience for buying, selling, and professional repairs. Our
+								mission is to combine high-quality genuine parts with technical
+								expertise to ensure your device performs at its best.
+							</p>
+							<p class="text-lg text-slate-400 leading-relaxed">
+								Built on customer trust and technical excellence, we've repaired
+								over 10,000 devices and helped thousands find their perfect new
+								smartphone upgrade.
+							</p>
+							<div class="grid grid-cols-2 gap-8 pt-6">
+								<div>
+									<h4 class="text-3xl font-black text-white">10k+</h4>
+									<p class="text-slate-500 font-medium">Devices Repaired</p>
+								</div>
+								<div>
+									<h4 class="text-3xl font-black text-white">100%</h4>
+									<p class="text-slate-500 font-medium">Genuine Parts</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Our Services Section -->
+			<section class="py-24 px-6" id="services">
+				<div class="max-w-7xl mx-auto">
+					<div class="text-center mb-16 space-y-4">
+						<h3 class="text-4xl font-extrabold text-white">
+							Our Premium Services
+						</h3>
+						<p class="text-slate-400 max-w-2xl mx-auto">
+							Everything you need for your iPhone journey, from purchasing the
+							latest model to expert micro-soldering repairs.
+						</p>
+					</div>
+					<div class="grid md:grid-cols-2 gap-8">
+						<!-- Buy & Sell -->
+						<div
+							class="group relative bg-white/[0.03] border border-white/10 rounded-3xl p-10 hover:border-primary/50 transition-all overflow-hidden">
+							<div
+								class="absolute top-0 right-0 w-32 h-32 bg-primary/10 rounded-bl-full -z-10 group-hover:bg-primary/20 transition-all"></div>
+							<div class="flex flex-col h-full gap-6">
+								<span
+									class="material-symbols-outlined text-5xl text-primary"
+									data-icon="shopping_basket"
+									>shopping_basket</span
+								>
+								<h4 class="text-3xl font-bold text-white">Buy &amp; Sell</h4>
+								<p class="text-slate-400 leading-relaxed">
+									Looking to upgrade? We offer a wide range of new and certified
+									pre-owned iPhones. Get the best market value with our instant
+									trade-in options.
+								</p>
+								<ul class="space-y-3 pt-4 flex-grow">
+									<li class="flex items-center gap-3 text-slate-300">
+										<span
+											class="material-symbols-outlined text-primary text-sm"
+											data-icon="check_circle"
+											>check_circle</span
+										>
+										New &amp; Pre-owned Inventory
+									</li>
+									<li class="flex items-center gap-3 text-slate-300">
+										<span
+											class="material-symbols-outlined text-primary text-sm"
+											data-icon="check_circle"
+											>check_circle</span
+										>
+										Instant Cash for Trade-ins
+									</li>
+									<li class="flex items-center gap-3 text-slate-300">
+										<span
+											class="material-symbols-outlined text-primary text-sm"
+											data-icon="check_circle"
+											>check_circle</span
+										>
+										Comprehensive Warranty
+									</li>
+								</ul>
+								<button
+									class="mt-6 flex items-center gap-2 text-primary font-bold group-hover:gap-4 transition-all">
+									Browse Inventory
+									<span class="material-symbols-outlined">arrow_right_alt</span>
+								</button>
+							</div>
+						</div>
+						<!-- Professional Repair -->
+						<div
+							class="group relative bg-white/[0.03] border border-white/10 rounded-3xl p-10 hover:border-primary/50 transition-all overflow-hidden">
+							<div
+								class="absolute top-0 right-0 w-32 h-32 bg-primary/10 rounded-bl-full -z-10 group-hover:bg-primary/20 transition-all"></div>
+							<div class="flex flex-col h-full gap-6">
+								<span
+									class="material-symbols-outlined text-5xl text-primary"
+									data-icon="build_circle"
+									>build_circle</span
+								>
+								<h4 class="text-3xl font-bold text-white">
+									Professional Repair
+								</h4>
+								<p class="text-slate-400 leading-relaxed">
+									Expert technicians specializing in iPhone hardware. From
+									cracked screens to complex motherboard issues, we restore your
+									device to factory standards.
+								</p>
+								<ul class="space-y-3 pt-4 flex-grow">
+									<li class="flex items-center gap-3 text-slate-300">
+										<span
+											class="material-symbols-outlined text-primary text-sm"
+											data-icon="check_circle"
+											>check_circle</span
+										>
+										Screen &amp; Battery Replacement
+									</li>
+									<li class="flex items-center gap-3 text-slate-300">
+										<span
+											class="material-symbols-outlined text-primary text-sm"
+											data-icon="check_circle"
+											>check_circle</span
+										>
+										Motherboard Micro-soldering
+									</li>
+									<li class="flex items-center gap-3 text-slate-300">
+										<span
+											class="material-symbols-outlined text-primary text-sm"
+											data-icon="check_circle"
+											>check_circle</span
+										>
+										Water Damage Recovery
+									</li>
+								</ul>
+								<button
+									class="mt-6 flex items-center gap-2 text-primary font-bold group-hover:gap-4 transition-all">
+									Get Repair Quote
+									<span class="material-symbols-outlined">arrow_right_alt</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Why Choose Us -->
+			<section class="py-24 px-6 bg-primary/5" id="why-us">
+				<div class="max-w-7xl mx-auto">
+					<div class="grid lg:grid-cols-4 gap-8">
+						<div class="text-center space-y-4">
+							<div
+								class="mx-auto w-16 h-16 rounded-full bg-white/5 border border-primary/20 flex items-center justify-center mb-6">
+								<span
+									class="material-symbols-outlined text-primary text-3xl"
+									data-icon="bolt"
+									>bolt</span
+								>
+							</div>
+							<h5 class="text-xl font-bold text-white">Fast Service</h5>
+							<p class="text-slate-500 text-sm">
+								Most repairs completed within 60 minutes while you wait.
+							</p>
+						</div>
+						<div class="text-center space-y-4">
+							<div
+								class="mx-auto w-16 h-16 rounded-full bg-white/5 border border-primary/20 flex items-center justify-center mb-6">
+								<span
+									class="material-symbols-outlined text-primary text-3xl"
+									data-icon="verified"
+									>verified</span
+								>
+							</div>
+							<h5 class="text-xl font-bold text-white">Original Parts</h5>
+							<p class="text-slate-500 text-sm">
+								We only use genuine or high-quality grade-A components.
+							</p>
+						</div>
+						<div class="text-center space-y-4">
+							<div
+								class="mx-auto w-16 h-16 rounded-full bg-white/5 border border-primary/20 flex items-center justify-center mb-6">
+								<span
+									class="material-symbols-outlined text-primary text-3xl"
+									data-icon="payments"
+									>payments</span
+								>
+							</div>
+							<h5 class="text-xl font-bold text-white">Competitive Prices</h5>
+							<p class="text-slate-500 text-sm">
+								Best market value for sales and affordable repair rates.
+							</p>
+						</div>
+						<div class="text-center space-y-4">
+							<div
+								class="mx-auto w-16 h-16 rounded-full bg-white/5 border border-primary/20 flex items-center justify-center mb-6">
+								<span
+									class="material-symbols-outlined text-primary text-3xl"
+									data-icon="security"
+									>security</span
+								>
+							</div>
+							<h5 class="text-xl font-bold text-white">Warranty</h5>
+							<p class="text-slate-500 text-sm">
+								Up to 6-months warranty on all parts and labor services.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Testimonials -->
+			<section class="py-24 px-6">
+				<div class="max-w-7xl mx-auto">
+					<div class="text-center mb-16 space-y-4">
+						<h3 class="text-4xl font-extrabold text-white">
+							What Our Customers Say
+						</h3>
+						<div class="flex justify-center gap-1">
+							<span
+								class="material-symbols-outlined text-yellow-500"
+								data-icon="star"
+								>star</span
+							>
+							<span
+								class="material-symbols-outlined text-yellow-500"
+								data-icon="star"
+								>star</span
+							>
+							<span
+								class="material-symbols-outlined text-yellow-500"
+								data-icon="star"
+								>star</span
+							>
+							<span
+								class="material-symbols-outlined text-yellow-500"
+								data-icon="star"
+								>star</span
+							>
+							<span
+								class="material-symbols-outlined text-yellow-500"
+								data-icon="star"
+								>star</span
+							>
+						</div>
+					</div>
+					<div class="grid md:grid-cols-3 gap-8">
+						<div
+							class="bg-white/[0.02] border border-white/5 p-8 rounded-2xl space-y-6">
+							<p class="text-slate-400 italic font-light italic">
+								"Amazing experience! They fixed my shattered iPhone 14 Pro
+								screen in less than 45 minutes. The quality is identical to the
+								original. Highly recommended!"
+							</p>
+							<div class="flex items-center gap-4">
+								<div
+									class="w-12 h-12 rounded-full bg-slate-700 flex items-center justify-center font-bold text-white">
+									JD
+								</div>
+								<div>
+									<p class="text-white font-bold">Jason Davis</p>
+									<p
+										class="text-primary text-xs uppercase font-bold tracking-tighter">
+										Repair Customer
+									</p>
+								</div>
+							</div>
+						</div>
+						<div
+							class="bg-white/[0.02] border border-white/5 p-8 rounded-2xl space-y-6">
+							<p class="text-slate-400 italic font-light">
+								"Traded in my old iPhone and got a great price. The process was
+								transparent and much faster than selling online myself. Love my
+								new iPhone 15!"
+							</p>
+							<div class="flex items-center gap-4">
+								<div
+									class="w-12 h-12 rounded-full bg-slate-700 flex items-center justify-center font-bold text-white">
+									SM
+								</div>
+								<div>
+									<p class="text-white font-bold">Sarah Miller</p>
+									<p
+										class="text-primary text-xs uppercase font-bold tracking-tighter">
+										Trade-in Customer
+									</p>
+								</div>
+							</div>
+						</div>
+						<div
+							class="bg-white/[0.02] border border-white/5 p-8 rounded-2xl space-y-6">
+							<p class="text-slate-400 italic font-light">
+								"Professional and honest. They fixed a motherboard issue that
+								other shops said was impossible. iBone Gadget are true tech
+								wizards."
+							</p>
+							<div class="flex items-center gap-4">
+								<div
+									class="w-12 h-12 rounded-full bg-slate-700 flex items-center justify-center font-bold text-white">
+									RL
+								</div>
+								<div>
+									<p class="text-white font-bold">Robert Lee</p>
+									<p
+										class="text-primary text-xs uppercase font-bold tracking-tighter">
+										Technical Repair
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- CTA Section -->
+			<section class="py-20 px-6">
+				<div class="max-w-7xl mx-auto">
+					<div
+						class="relative rounded-3xl overflow-hidden bg-primary px-8 py-16 text-center text-white">
+						<div
+							class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-20"></div>
+						<div class="relative z-10 max-w-2xl mx-auto space-y-8">
+							<h2 class="text-4xl md:text-5xl font-black">
+								Ready to upgrade or repair your device?
+							</h2>
+							<p class="text-lg opacity-90">
+								Visit us today or get an instant quote online. Your iPhone
+								deserves the best care.
+							</p>
+							<div class="flex flex-wrap justify-center gap-4">
+								<button
+									class="bg-white text-primary px-8 py-4 rounded-xl font-bold hover:bg-slate-100 transition-all shadow-xl">
+									Get a Free Quote
+								</button>
+								<button
+									class="bg-background-dark text-white px-8 py-4 rounded-xl font-bold hover:bg-black transition-all">
+									Find Our Store
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!-- Footer -->
+		<footer
+			class="bg-background-dark border-t border-white/5 pt-20 pb-10 px-6"
+			id="contact">
+			<div class="max-w-7xl mx-auto">
+				<div class="grid md:grid-cols-4 gap-12 mb-20">
+					<div class="space-y-6">
+						<div class="flex items-center gap-3">
+							<div class="bg-primary p-1.5 rounded-lg">
+								<span
+									class="material-symbols-outlined text-white text-xl"
+									data-icon="smartphone"
+									>smartphone</span
+								>
+							</div>
+							<h1 class="text-lg font-extrabold text-white uppercase italic">
+								iBone <span class="text-primary">Gadget</span>
+							</h1>
+						</div>
+						<p class="text-slate-500 text-sm leading-relaxed">
+							Leading provider of premium smartphone sales and expert repair
+							services. Specialist in iPhone ecosystem maintenance and retail.
+						</p>
+						<div class="flex gap-4">
+							<a
+								class="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-slate-400 hover:border-primary hover:text-primary transition-all"
+								href="#">
+								<span
+									class="material-symbols-outlined text-lg"
+									data-icon="public"
+									>public</span
+								>
+							</a>
+							<a
+								class="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-slate-400 hover:border-primary hover:text-primary transition-all"
+								href="#">
+								<span
+									class="material-symbols-outlined text-lg"
+									data-icon="alternate_email"
+									>alternate_email</span
+								>
+							</a>
+							<a
+								class="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-slate-400 hover:border-primary hover:text-primary transition-all"
+								href="#">
+								<span
+									class="material-symbols-outlined text-lg"
+									data-icon="smart_display"
+									>smart_display</span
+								>
+							</a>
+						</div>
+					</div>
+					<div>
+						<h6 class="text-white font-bold mb-6">Quick Links</h6>
+						<ul class="space-y-4 text-slate-500 text-sm">
+							<li>
+								<a class="hover:text-primary transition-all" href="#home"
+									>Home</a
+								>
+							</li>
+							<li>
+								<a class="hover:text-primary transition-all" href="#about"
+									>About Us</a
+								>
+							</li>
+							<li>
+								<a class="hover:text-primary transition-all" href="#services"
+									>Services</a
+								>
+							</li>
+							<li>
+								<a class="hover:text-primary transition-all" href="#"
+									>Inventory</a
+								>
+							</li>
+							<li>
+								<a class="hover:text-primary transition-all" href="#"
+									>Warranty Terms</a
+								>
+							</li>
+						</ul>
+					</div>
+					<div>
+						<h6 class="text-white font-bold mb-6">Store Hours</h6>
+						<ul class="space-y-4 text-slate-500 text-sm">
+							<li class="flex justify-between">
+								<span>Mon - Fri</span>
+								<span class="text-slate-300">09:00 - 20:00</span>
+							</li>
+							<li class="flex justify-between">
+								<span>Saturday</span>
+								<span class="text-slate-300">10:00 - 18:00</span>
+							</li>
+							<li class="flex justify-between">
+								<span>Sunday</span> <span class="text-slate-300">Closed</span>
+							</li>
+						</ul>
+					</div>
+					<div>
+						<h6 class="text-white font-bold mb-6">Contact Us</h6>
+						<ul class="space-y-4 text-slate-500 text-sm">
+							<li class="flex items-start gap-3">
+								<span
+									class="material-symbols-outlined text-primary text-sm mt-1"
+									data-icon="location_on"
+									>location_on</span
+								>
+								<span
+									>123 Tech Plaza, Gadget District,<br />Silicon Valley, CA
+									94025</span
+								>
+							</li>
+							<li class="flex items-center gap-3">
+								<span
+									class="material-symbols-outlined text-primary text-sm"
+									data-icon="call"
+									>call</span
+								>
+								<span>+1 (555) 012-3456</span>
+							</li>
+							<li class="flex items-center gap-3">
+								<span
+									class="material-symbols-outlined text-primary text-sm"
+									data-icon="mail"
+									>mail</span
+								>
+								<span>support@ibonegadget.com</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div
+					class="border-t border-white/5 pt-10 flex flex-col md:flex-row justify-between items-center gap-6">
+					<p class="text-slate-500 text-xs">
+						© 2024 iBone Gadget. All rights reserved. iPhone is a trademark of
+						Apple Inc.
+					</p>
+					<div
+						class="flex gap-8 text-slate-500 text-xs uppercase tracking-widest font-bold">
+						<a class="hover:text-white transition-all" href="#"
+							>Privacy Policy</a
+						>
+						<a class="hover:text-white transition-all" href="#"
+							>Terms of Service</a
+						>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
